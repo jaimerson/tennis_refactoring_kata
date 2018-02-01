@@ -1,0 +1,2 @@
+# /bin/bash
+while inotifywait -e close_write ./; do ruby ./tennis_test.rb; done
